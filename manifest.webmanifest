@@ -1,0 +1,9 @@
+{
+  "name": "Connections for All",
+  "short_name": "Connections",
+  "start_url": "./#/",
+  "display": "standalone",
+  "background_color": "#f7f5f0",
+  "theme_color": "#2f6f5e",
+  "icons": [{ "src": "assets/icon.svg", "sizes": "any", "type": "image/svg+xml" }]
+}

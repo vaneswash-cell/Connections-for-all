@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Connections for All</title>
+  <meta name="description" content="One platform. Multiple pathways to support — peer groups, qualified professionals and reviewed resources.">
+  <meta name="theme-color" content="#2f6f5e">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <div class="proto-bar" role="note">Prototype — all listings are illustrative samples, not real groups or providers. Data stays in this browser.</div>
+  <header class="site-header">
+    <a class="brand" href="#/" aria-label="Connections for All home"><img src="assets/icon.svg" alt="" width="28" height="28"><span>Connections <em>for All</em></span></a>
+    <nav class="nav" aria-label="Main">
+      <a href="#/discover" data-nav="/discover"><span aria-hidden="true">🧭</span>Discover</a>
+      <a href="#/my-groups" data-nav="/my-groups"><span aria-hidden="true">👥</span>My Groups</a>
+      <a href="#/professionals" data-nav="/professionals"><span aria-hidden="true">🩺</span>Professionals</a>
+      <a href="#/resources" data-nav="/resources"><span aria-hidden="true">📚</span>Resources</a>
+      <a href="#/events" data-nav="/events"><span aria-hidden="true">🗓️</span>Events</a>
+      <a href="#/account" data-nav="/account"><span aria-hidden="true">👤</span><span id="account-label">Sign in</span></a>
+    </nav>
+    <a id="admin-link" class="admin-link" href="#/admin" data-nav="/admin" hidden>Admin</a>
+  </header>
+
+  <main id="main" class="container" tabindex="-1"></main>
+
+  <footer class="site-footer container">
+    <div class="callout crisis small"><strong>In crisis?</strong> Call <strong>911</strong> if you're in immediate danger, or call or text <strong>988</strong> (Suicide &amp; Crisis Lifeline). Connections for All does not provide emergency or clinical services.</div>
+    <p class="small"><a href="#/about">How we review listings</a> · <a href="#/about">Privacy &amp; safety</a> · <button class="link-btn" data-action="report" data-kind="general">Report a concern</button> · <a href="#/groups/apply">Lead a group</a> · <a href="#/professionals/apply">List your practice</a> · <a href="#/resources/submit">Submit a resource</a></p>
+    <p class="small muted">© 2026 Connections for All · Central Ohio pilot</p>
+  </footer>
+
+  <dialog id="modal" aria-modal="true"></dialog>
+  <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+
+  <script src="assets/data.js"></script>
+  <script src="assets/store.js"></script>
+  <script src="assets/app.js"></script>
+</body>
+</html>
